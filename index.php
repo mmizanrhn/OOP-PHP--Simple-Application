@@ -63,7 +63,34 @@
     </div>
     <div class="content">
         <div class="coding">
-            <a href="text.php?msg=Hello World&txt=good bye">Send Data</a>
+            <form action="text.php" method="post">
+                <table>
+                    <tr>
+                        <td>Name  </td>
+                        <td><input type="text" name="name" placeholder="Name" required></td>
+                    </tr>
+                    <tr>
+                        <td>Email  </td>
+                        <td><input type="email" name="email" placeholder="Email" required></td>
+                    </tr>
+                    <tr>
+                        <td>Website  </td>
+                        <td><input type="text" name="website" placeholder="Website" required></td>
+                    </tr>
+                    <tr>
+                        <td>Comment  </td>
+                        <td><textarea name="comment" cols="40" rows="4" placeholder="Write something here" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Gender  </td>
+                        <td><input type="radio" name="gender" value="male">Male  &nbsp; &nbsp;<input type="radio" name="gender" value="female">Female</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" value="Submit"></td>
+                    </tr>
+                </table>
+            </form>
         </div>
     </div>
 
