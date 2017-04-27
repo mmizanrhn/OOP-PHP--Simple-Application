@@ -71,7 +71,7 @@
             <?php
 
             if($_SERVER["REQUEST_METHOD"] == "POST"){
-                $username = $_REQUEST['username'];
+                $username = $_POST['username'];
 
                 if(empty($username)){
                     echo "<span style='color:red'>The username must not be empty</span>";
