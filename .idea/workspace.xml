@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87b46906-43ee-4e56-9205-068fc2646fe5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/text.php" afterPath="$PROJECT_DIR$/text.php" />
     </list>
     <ignored path="lynda.com.iws" />
@@ -25,31 +25,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.546875">
-              <caret line="89" column="69" selection-start-line="89" selection-start-column="69" selection-end-line="89" selection-end-column="69" />
+            <state vertical-scroll-proportion="-11.9">
+              <caret line="68" column="39" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="text.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="text.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/text.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.75">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state vertical-scroll-proportion="-0.96153843">
+              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
               <folding>
-                <marker date="1493293612395" expanded="true" signature="473:585" placeholder="..." />
-                <marker date="1493293612395" expanded="true" signature="484:532" placeholder="..." />
-                <marker date="1493293612395" expanded="true" signature="544:559" placeholder="..." />
-                <marker date="1493293612395" expanded="true" signature="566:585" placeholder="..." />
-                <marker date="1493293612395" expanded="true" signature="617:698" placeholder="..." />
-                <marker date="1493293612395" expanded="true" signature="711:794" placeholder="..." />
-                <marker date="1493293612395" expanded="true" signature="807:894" placeholder="..." />
-                <marker date="1493293612395" expanded="true" signature="907:994" placeholder="..." />
-                <marker date="1493293612395" expanded="true" signature="1007:1092" placeholder="..." />
+                <marker date="1493294743571" expanded="true" signature="569:681" placeholder="..." />
+                <marker date="1493294743571" expanded="true" signature="580:628" placeholder="..." />
+                <marker date="1493294743571" expanded="true" signature="640:655" placeholder="..." />
+                <marker date="1493294743571" expanded="true" signature="662:681" placeholder="..." />
+                <marker date="1493294743571" expanded="true" signature="713:794" placeholder="..." />
+                <marker date="1493294743571" expanded="true" signature="807:890" placeholder="..." />
+                <marker date="1493294743571" expanded="true" signature="903:990" placeholder="..." />
+                <marker date="1493294743571" expanded="true" signature="1003:1090" placeholder="..." />
+                <marker date="1493294743571" expanded="true" signature="1103:1188" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -65,8 +65,8 @@
       <list>
         <option value="$PROJECT_DIR$/day1.php" />
         <option value="$PROJECT_DIR$/first.php" />
-        <option value="$PROJECT_DIR$/text.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/text.php" />
       </list>
     </option>
   </component>
@@ -421,29 +421,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/text.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.75">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding>
-            <marker date="1493293612395" expanded="true" signature="473:585" placeholder="..." />
-            <marker date="1493293612395" expanded="true" signature="484:532" placeholder="..." />
-            <marker date="1493293612395" expanded="true" signature="544:559" placeholder="..." />
-            <marker date="1493293612395" expanded="true" signature="566:585" placeholder="..." />
-            <marker date="1493293612395" expanded="true" signature="617:698" placeholder="..." />
-            <marker date="1493293612395" expanded="true" signature="711:794" placeholder="..." />
-            <marker date="1493293612395" expanded="true" signature="807:894" placeholder="..." />
-            <marker date="1493293612395" expanded="true" signature="907:994" placeholder="..." />
-            <marker date="1493293612395" expanded="true" signature="1007:1092" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="-11.9">
+          <caret line="68" column="39" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/text.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.546875">
-          <caret line="89" column="69" selection-start-line="89" selection-start-column="69" selection-end-line="89" selection-end-column="69" />
-          <folding />
+        <state vertical-scroll-proportion="-0.96153843">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding>
+            <marker date="1493294743571" expanded="true" signature="569:681" placeholder="..." />
+            <marker date="1493294743571" expanded="true" signature="580:628" placeholder="..." />
+            <marker date="1493294743571" expanded="true" signature="640:655" placeholder="..." />
+            <marker date="1493294743571" expanded="true" signature="662:681" placeholder="..." />
+            <marker date="1493294743571" expanded="true" signature="713:794" placeholder="..." />
+            <marker date="1493294743571" expanded="true" signature="807:890" placeholder="..." />
+            <marker date="1493294743571" expanded="true" signature="903:990" placeholder="..." />
+            <marker date="1493294743571" expanded="true" signature="1003:1090" placeholder="..." />
+            <marker date="1493294743571" expanded="true" signature="1103:1188" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

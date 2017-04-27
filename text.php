@@ -1,4 +1,10 @@
 <?php
+    $name    = "";
+    $email   = "";
+    $website = "";
+    $comment = "";
+    $gender  = "";
+
     if($_SERVER['REQUEST_METHOD'] == "POST") {
         $name    = validate($_POST['name']);
         $email   = validate($_POST['email']);
