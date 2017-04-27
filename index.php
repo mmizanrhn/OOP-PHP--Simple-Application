@@ -63,23 +63,7 @@
     </div>
     <div class="content">
         <div class="coding">
-            <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-                Username : <input type="text" name= "username">
-                           <input type="submit" value="Submit">
-            </form>
-
-            <?php
-
-            if($_SERVER["REQUEST_METHOD"] == "POST"){
-                $username = $_POST['username'];
-
-                if(empty($username)){
-                    echo "<span style='color:red'>The username must not be empty</span>";
-                }else{
-                    echo "Username is <span style='color:green'>$username </span>";
-                }
-            }
-            ?>
+            <a href="text.php?msg=Hello World&txt=good bye">Send Data</a>
         </div>
     </div>
 
