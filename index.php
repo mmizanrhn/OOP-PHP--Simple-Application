@@ -40,6 +40,7 @@
 ?>
 <?php include("header.php"); ?>
     <div class="content">
+
         <div class="coding">
             <form action="<?php $_SERVER['PHP_SELF'];?>" method="post">
                 <p style="color:#ff0000;">*Required field</p>
@@ -79,11 +80,10 @@
             echo "Today is ". " ". date('l')."<br/>";
             echo "Bangladesh time is"." ". date('h:i:sa')."<br/>";
 
-            echo date_default_timezone_get();
-
-
-
+            echo date_default_timezone_get()."<br/>";
+            echo readfile('text.txt');
             ?>
+
         </div>
 
 
