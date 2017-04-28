@@ -134,13 +134,12 @@
                 </table>
             </form>
             <?php
-            //Data function //
             echo "Today is "." ". date('Y/m/d')."<br/>";
             echo "Today is "." ". date('l')."<br/>";
             echo "Today is "." ". date('d/m/y')."<br/>";
 
             date_default_timezone_set('Asia/Dhaka');
-            echo "Bangladesh date is"." ". date('d/m/Y')."<br/>";
+            echo "Today is ". " ". date('l')."<br/>";
             echo "Bangladesh time is"." ". date('h:i:sa')."<br/>";
 
             echo date_default_timezone_get();
