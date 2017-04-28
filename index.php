@@ -86,7 +86,8 @@
             text-align: center;
         }
         .footer p{
-            padding: 10px;
+            padding: 0px;
+            margin: 0px;
         }
 
     </style>
@@ -132,12 +133,29 @@
                     </tr>
                 </table>
             </form>
+            <?php
+            //Data function //
+            echo "Today is "." ". date('Y/m/d')."<br/>";
+            echo "Today is "." ". date('l')."<br/>";
+            echo "Today is "." ". date('d/m/y')."<br/>";
+
+            date_default_timezone_set('Asia/Dhaka');
+            echo "Bangladesh date is"." ". date('d/m/Y')."<br/>";
+            echo "Bangladesh time is"." ". date('h:i:sa')."<br/>";
+
+            echo date_default_timezone_get();
+
+
+
+            ?>
         </div>
+
+
     </div>
 
     <div class="footer">
         <?php
-
+        echo "<p> &copy;<?php echo date('Y');?>Copyright by mmeezan1987 </p>";
         echo "<p> All Rights reserved mizanrhn1@gmail.com </p>";
 
         ?>
