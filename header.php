@@ -46,8 +46,7 @@
             text-align: center;
         }
         .footer p{
-            padding: 0px;
-            margin: 0px;
+            padding: 10px;
         }
 
     </style>
