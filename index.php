@@ -1,17 +1,17 @@
 <?php
 include("header.php");
-
 ?>
     <div class="content">
 
         <div class="coding">
             <?php
-                if(!isset($_COOKIE['visited'])){
-                    setcookie("visited","1",time()+86400,"/") or die("Could not set cookie");
-                    echo "This is your first visit";
-                }else{
-                    echo "Your are our old visitor";
-                }
+
+            $url = "http://www.conferbd.com";
+            if(filter_var($url,FILTER_VALIDATE_URL,FILTER_FLAG_QUERY_REQUIRED)){
+                echo "This is valid web address";
+            }else{
+                echo "It has not query string";
+            }
 
             ?>
 
