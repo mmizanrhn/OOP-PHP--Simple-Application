@@ -1,15 +1,18 @@
-<?php session_start();?>
-<?php include("header.php"); ?>
+<?php
+include("header.php");
+
+?>
     <div class="content">
 
         <div class="coding">
             <?php
-                $_SESSION['username'] = 'mizan';
-                $_SESSION['password'] = '12345';
-                /*session_unset();*/
-                echo "Username is : ". $_SESSION['username'].'<br/>';
-                echo "Password is : ". $_SESSION['password'];
-                session_destroy();
+                if(!isset($_COOKIE['visited'])){
+                    setcookie("visited","1",time()+86400,"/") or die("Could not set cookie");
+                    echo "This is your first visit";
+                }else{
+                    echo "Your are our old visitor";
+                }
+
             ?>
 
         </div>
