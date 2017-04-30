@@ -6,8 +6,9 @@
             <?php
                 $_SESSION['username'] = 'mizan';
                 $_SESSION['password'] = '12345';
-                session_unset();
-                echo $_SESSION['username'];
+                /*session_unset();*/
+                echo $_SESSION['username'].'<br/>';
+                echo $_SESSION['password'];
                 session_destroy();
             ?>
 
