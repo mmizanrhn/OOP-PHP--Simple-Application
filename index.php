@@ -1,22 +1,16 @@
-
+<?php session_start();?>
 <?php include("header.php"); ?>
     <div class="content">
 
         <div class="coding">
             <?php
-            if(isset($_FILES['file'])){
-                $file = $_FILES['file']['name'];
-                $filetmp = $_FILES['file']['tmp_name'];
-                move_uploaded_file($filetmp,'uploads/'.$file);
-
-                echo "File is uploaded successfully";
-            }
-
+                $_SESSION['username'] = 'mizan';
+                $_SESSION['password'] = '12345';
+                session_unset();
+                echo $_SESSION['username'];
+                session_destroy();
             ?>
-            <form action="index.php" method="post" enctype="multipart/form-data">
-                <input type="file" name="file"/><br/>
-                <input type="submit" value="Submit"/>
-            </form>
+
         </div>
 
 
