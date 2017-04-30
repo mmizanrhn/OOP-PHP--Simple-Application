@@ -5,17 +5,19 @@ include("header.php");
 
         <div class="coding">
             <?php
-
-            $url = "http://www.conferbd.com";
-            if(filter_var($url,FILTER_VALIDATE_URL,FILTER_FLAG_QUERY_REQUIRED)){
-                echo "This is valid web address";
-            }else{
-                echo "It has not query string";
+            if(isset($_POST['text'])){
+                global $txt;
+                $txt = $_POST['text'];
+                echo trim($txt,' .');
             }
 
             ?>
+            <form action="index.php" method="post">
+                <input type="text" name="text" value="<?php global $txt; echo $txt; ?>"><br/>
+                <input type="submit" value="Submit"/>
+            </form>
 
-        </div>
+          </div>
 
 
     </div>
