@@ -4,18 +4,17 @@ include("header.php");
     <div class="content">
 
         <div class="coding">
+
             <?php
-            $class = array(
-                'Rasel' => '8',
-                'Mahmud' => '2'
-
+            $fruits = array (
+                "fruits"  => array("a" => "orange", "b" => "banana", "c" => "apple"),
+                "numbers" => array(1, 2, 3, 4, 5, 6),
+                "holes"   => array("first", 5 => "second", "third")
             );
-
-            echo $class['Rasel'];
-
+            echo $fruits['fruits']['c'];
             ?>
 
-          </div>
+        </div>
 
 
     </div>
