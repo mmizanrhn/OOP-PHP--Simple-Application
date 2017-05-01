@@ -5,17 +5,15 @@ include("header.php");
 
         <div class="coding">
             <?php
-            if(isset($_POST['text'])){
-                global $txt;
-                $txt = $_POST['text'];
-                echo trim($txt,' .');
-            }
+            $class = array(
+                'Rasel' => '8',
+                'Mahmud' => '2'
+
+            );
+
+            echo $class['Rasel'];
 
             ?>
-            <form action="index.php" method="post">
-                <input type="text" name="text" value="<?php global $txt; echo $txt; ?>"><br/>
-                <input type="submit" value="Submit"/>
-            </form>
 
           </div>
 
