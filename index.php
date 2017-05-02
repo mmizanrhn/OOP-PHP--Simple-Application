@@ -23,7 +23,20 @@ include("header.php");
                 array("Khairul","Kabir","Bashar"),
                 array("Jakir","Kamal","Monir")
             );
-            echo $students['0']['2'];
+            echo $students['0']['2']."<br/>";
+
+            // array_change_key_case() // built in function
+            $ages = array(
+                "ABDullah" => "30",
+                "MahMud"   => "33",
+                "jamal"    => "28",
+                "habib"    => "25"
+            );
+
+            print_r("<pre>");
+            print_r(array_change_key_case($ages,CASE_UPPER));
+            print_r("</pre>");
+
 
             ?>
 
