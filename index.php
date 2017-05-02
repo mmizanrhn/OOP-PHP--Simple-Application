@@ -7,27 +7,22 @@ include("header.php");
 
             <?php
 
-            $employess = array(
-                array(
-                    "id"         => "301" ,
-                    "first_name" => "Khalid",
-                    "last_name"  => "Zamil"
-                ),
-                array(
-                    "id"         => "402",
-                    "first_name" => "Kamal",
-                    "last_name"  => "Hossain"
-                ),
-                array(
-                    "id"         => "401",
-                    "first_name" => "Mizan",
-                    "last_name"  => "Rahman"
-                )
+            $cars = array(
+                "color" => "Black",
+                "id"    => "201",
+                "name"  => "Bmw",
+                "company"=>"Nitol"
             );
-           sort($employess);
-           print_r("<pre>");
-           print_r(array_column($employess,'last_name','id'));
-           print_r("</pre>");
+
+            if(array_key_exists("colors",$cars)){
+                echo "Key already exists";
+            }else{
+                echo "Key does not exists";
+            }
+
+              /* print_r("<pre>");
+               print_r($differ);
+               print_r("</pre>");*/
 
            ?>
 
