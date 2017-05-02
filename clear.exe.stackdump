@@ -1,0 +1,7 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=640C8219
+eax=2003BEC4 ebx=0023B81C ecx=2003AEBC edx=641D3E4C esi=00030201 edi=0023B800
+ebp=00000000 esp=0023B780 program=C:\Program Files\Git\usr\bin\clear.exe, pid 3996, thread main
+cs=001B ds=0023 es=0023 fs=003B gs=0000 ss=0023
+Stack trace:
+Frame     Function  Args
+End of stack trace

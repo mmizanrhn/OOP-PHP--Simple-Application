@@ -10,9 +10,7 @@ include("header.php");
             // INDEX ARRAY
             $cars = array("Volbo","Toyota","Maruti","Scania");
             $lentgh = count($cars);
-            for($i=0;$i<$lentgh;$i++){
-                echo $cars[$i]."<br/>";
-            }
+            echo $lentgh;
             // Associative array
             $age = array("Abdullah"=> "30","Mahmud"=>"33","Jamal"=>"28","Habib"=>"25");
             foreach($age as $key => $value){
