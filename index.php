@@ -14,15 +14,11 @@ include("header.php");
                 "company"=>"Nitol"
             );
 
-            if(array_key_exists("colors",$cars)){
+            if(array_key_exists("color",$cars)){
                 echo "Key already exists";
             }else{
                 echo "Key does not exists";
             }
-
-              /* print_r("<pre>");
-               print_r($differ);
-               print_r("</pre>");*/
 
            ?>
 
