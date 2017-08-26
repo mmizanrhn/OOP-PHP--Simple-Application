@@ -14,11 +14,9 @@ include("header.php");
                 "company"=>"Nitol"
             );
 
-            if(array_key_exists("color",$cars)){
-                echo "Key already exists";
-            }else{
-                echo "Key does not exists";
-            }
+            foreach($cars as $car => $value){
+				echo $value. "<br>";
+			}
 
            ?>
 
